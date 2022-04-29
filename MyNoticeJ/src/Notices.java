@@ -4,11 +4,22 @@ public class Notices {
     public String tasks;
 
 
-    public  String GetBlocks(){
+    public String GetBlocks(){
+
         return blocks;
     }
 
     public void SetBlocks(String blocks){
         this.blocks = blocks;
+    }
+
+
+    public String GetTasks(){
+
+        return tasks;
+    }
+
+    public void SetTasks(String tasks){
+        this.tasks = tasks;
     }
 }
